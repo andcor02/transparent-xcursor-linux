@@ -14,12 +14,11 @@ On Raspbian
 
     a) You can just use the cursors i have provided, only do step a, b is for reference.
        Navigate to "/usr/share/icons/Adwaita" and delete the folder "cursors"
-       Obtain the folder from the download "xcursor-transparent-cursor-master" and copy "cursors" folder to "/usr/share/icons/Adwaita" 
-
+       From the root of this repo Copy "cursors" folder to "/usr/share/icons/Adwaita" 
 
     b) If you want to generate cursors from scratch, which you shouldn't
        In Terminal run "sudo apt-get install x11-apps" we require xcursorgen if doing this from scratch. 
-       Then in the folder "xcursor-transparent-cursor-master" run the script gen.sh with bash
+       Navigate from the root of this repo to "toGenerate" run the script gen.sh with bash
 
 3) Navigate to Preferences -> Theme and Appearance Settings -> Mouser Cursor - On the left hand side click "Adwaita" and click apply
 
